@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #faebd0;
+		background: -moz-linear-gradient(45deg, #faebd0 15%, #e69809 85%);
+		background: -webkit-linear-gradient(45deg, #faebd0 15%, #e69809 85%);
+		background: -ms-linear-gradient(45deg, #d1a552 15%, #f1d9ab 85%);
+		background: linear-gradient(45deg, #fde6bf 15%, #fef4e3 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2414,6 +2414,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+#location .image img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
 /* List */
 
 	ol {
@@ -2644,14 +2649,7 @@ input, select, textarea {
 			font-size: 2em;
 		}
 
-			header.major h2:after {
-				display: block;
-				content: '';
-				width: 3.25em;
-				height: 2px;
-				margin: 0.7em 0 1em 0;
-				border-radius: 2px;
-			}
+			
 
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
@@ -3078,6 +3076,7 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
+			color: #ffffff;
 		}
 
 		#header p {
@@ -3086,7 +3085,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 12em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3215,13 +3214,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
+		background-color: #fef4e3;
 		color: #636363;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #fef4e3;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3305,7 +3304,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #fef4e3;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
