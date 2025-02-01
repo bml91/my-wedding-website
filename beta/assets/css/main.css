@@ -3322,8 +3322,10 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#nav {
-				font-size: 0.52em; /* Make the text size smaller */;
+				font-size: calc(0.25em + 1vw); /* Dynamic font size for smaller screens */
 				padding: 0px 0px; /* Adjust padding as needed */
+				max-width: 100%;
+
 			}
 
 				#nav + #main {
