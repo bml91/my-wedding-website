@@ -3225,6 +3225,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3318,10 +3319,11 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 480px) {
 
 			#nav {
-				display: none;
+				font-size: 0.52em; /* Make the text size smaller */;
+				padding: 0px 0px; /* Adjust padding as needed */
 			}
 
 				#nav + #main {
