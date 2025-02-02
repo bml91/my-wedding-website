@@ -2638,7 +2638,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: justify;
 	}
 
 	header.major {
@@ -3888,9 +3888,24 @@ input, select, textarea {
 		/* Styles for mobile devices */
 
 		.desktop-content {
-			scale: 0.4;
 			padding-top: 0px;
+			display: flex;
+			margin: 0;
+			max-width: 100%;
+			height: auto;
+			width: auto;
+			justify-content: center;
+			align-items: center;
 		}
+		
+		.desktop-content img {
+			width: 20%;
+			height: 20%;
+			align-items: center;
+			justify-content: center;
+			
+		}
+
 @media only screen and (max-width: 768px) {
     .mobile-content {
         display: block;
@@ -3907,5 +3922,9 @@ input, select, textarea {
     }
     .desktop-content {
         display: block;
+		padding: 0;
+		margin: 0;
+		align-items: center;
+		justify-content: center;
     }
 }
