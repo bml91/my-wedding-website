@@ -3001,9 +3001,9 @@ input, select, textarea {
 			margin-left: 4em;
 			scale: 1;
 			padding: 2em;
-			border-radius: 100%;
+			border-radius:45%;
 			border: solid 0px;
-			background-image: url('/beta/assets/css/images/spotlight.jpg');
+			/*background-image: url('/beta/assets/css/images/spotlight.jpg');*/
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -3013,8 +3013,8 @@ input, select, textarea {
 
 			.spotlight .image img {
 				display: block;
-				scale: 0.85;
-				border-radius: 30%;
+				scale: 0.80;
+				border-radius: 50%;
 				width: 16em;
 			}
 
@@ -3060,35 +3060,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-
-			spotlight {
-				padding: 1em; /* Reduce padding around the spotlight */
-				margin: 0; /* Remove margin around the spotlight */
-			}
-
-			.spotlight .image {
-				margin-left: 0; /* Remove left margin */
-				padding: 0.5em; /* Reduce padding around the image */
-				width: 10em; /* Adjust the width for smaller screens */
-				height: 10em; /* Adjust the height for smaller screens */
-								
-			}
-
-			.spotlight .content {
-				margin: 0; /* Remove margin around the content */
-				padding: 0; /* Remove padding around the content */
-			}
-
-				.spotlight .image img {
-					width: 60%; /* Adjust the width to fit within the border */
-        			height: 100%; /* Adjust the height to fit within the border */
-					margin-left:20%;
-					
-				}
-
-		}
+		
 
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
