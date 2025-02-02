@@ -3857,3 +3857,28 @@ input, select, textarea {
 				transform: scale(0.8);
 			}
 		}
+
+		/* Styles for mobile devices */
+
+		.desktop-content {
+			scale: 0.4;
+			padding-top: 0px;
+		}
+@media only screen and (max-width: 768px) {
+    .mobile-content {
+        display: block;
+    }
+    .desktop-content {
+        display: none;
+    }
+}
+
+/* Styles for desktop devices */
+@media only screen and (min-width: 769px) {
+    .mobile-content {
+        display: none;
+    }
+    .desktop-content {
+        display: block;
+    }
+}
