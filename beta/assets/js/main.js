@@ -3,6 +3,24 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+function setLanguage(lang) {
+    // Select all elements with class "lang"
+    const langElements = document.querySelectorAll(".lang");
+
+    // Loop through each element and set visibility based on the language
+    langElements.forEach(el => {
+        if (el.classList.contains(lang)) {
+            el.style.display = "inline-block";  // Show the element for the selected language
+        } else {
+            el.style.display = "none";  // Hide the element for the other language
+        }
+    });
+}
+
+// Set default language to English on page load
+document.addEventListener("DOMContentLoaded", () => {
+    setLanguage('en'); // Show English by default
+});
 
 (function($) {
 

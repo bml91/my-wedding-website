@@ -31,26 +31,41 @@
 
 
 <body class="is-preload">
-
+ 
 	<!-- Wrapper -->
 	<div id="wrapper">
 		<!-- Google Translate Widget -->
-		<div id="google_translate_element" class="translate-widget"></div>
+		<!-- <div id="google_translate_element" class="translate-widget"></div>-->
+
+		<!-- Language Selector -->
+ <div class="language-selector">
+	<button onclick="setLanguage('en')">English</button>
+	<button onclick="setLanguage('de')">Deutch</button>
+</div>
+
+
 		<!-- Header -->
 		<header id="header" class="alt"
 			style="background-image: url('images/Wedding_Castle.jpg'); background-size: cover; background-position: center;">
-			<h1>Ulrike and Bogdan</h1>
+			<h1 class="lang en">Ulrike and Bogdan</h1>
+			<h1 class="lang de">Ulrike und Bogdan</h1>
 		</header>
 
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
-				<li><a href="#intro" class="active">About Us</a></li>
-				<li><a href="#location">The Venue</a></li>
-				<li><a href="#accomodation">Accomodation</a></li>
-				<li><a href="#getting_there">Getting There</a></li>
-				<li><a href="#gifts">Gifts</a></li>
-				<li><a href="#rsvp">RSVP</a></li>
+				<li class="lang en"><a href="#intro" class="active">About Us</a></li>
+				<li class="lang de"><a href="#intro" class="active">Über Uns</a></li>
+				<li class="lang en"><a href="#location">The Venue</a></li>
+				<li class="lang de"><a href="#location">Location</a></li>
+				<li class="lang en"><a href="#accomodation">Accomodation</a></li>
+				<li class="lang de"><a href="#accomodation">Übernachtung</a></li>
+				<li class="lang en"><a href="#getting_there">Getting There</a></li>
+				<li class="lang de"><a href="#getting_there">Anreise</a></li>
+				<li class="lang en"><a href="#gifts">Gifts</a></li>
+				<li class="lang de"><a href="#gifts">Geschenke</a></li>
+				<li class="lang en"><a href="#rsvp">RSVP</a></li>
+				<li class="lang de"><a href="#rsvp">RSVP</a></li>
 				
 			</ul>
 		</nav>
@@ -63,9 +78,10 @@
 				<div class="spotlight">
 					<div class="content">
 						<header class="major">
-							<h2>About Us</h2>
+							<h2 class="lang en">About Us</h2>
+							<h2 class="lang de">Über Uns</h2>
 						</header>
-						<p>Our journey together started at the end of 2020, taking a surprising turn for Ulli when
+						<p class="lang en">Our journey together started at the end of 2020, taking a surprising turn for Ulli when
 							Bogdan planned a romantic proposal on the Maldives on the 17th of January 2024. A bit more
 							than
 							a year and one sabbatical later, we are getting married and want to celebrate this beautiful
@@ -76,6 +92,8 @@
 							be
 							themselves.
 						</p>
+						<p class="lang de">DE Stuff
+						</p>
 					</div>
 					<span class="image"><img src="images/Us.jpg" alt="" /></span>
 				</div>
@@ -84,10 +102,11 @@
 			<!-- The Location -->
 			<section id="location" class="main special">
 				<header class="major">
-					<h2>Schloss Saareck</h2>
+					<h2 class="lang en">Schloss Saareck</h2>
+					<h2 class="lang de">Schloss Saareck</h2>
 				</header>
 				<span class="image"><img src="images/Location.jpg" alt="Schloss Saareck" /></span>
-				<p>Castle Saareck is located in Mettlach, right on the riverbank of river Saar. It was built in 1902 in
+				<p class="lang en">Castle Saareck is located in Mettlach, right on the riverbank of river Saar. It was built in 1902 in
 					historicism style by the Boch family. Yes, it’s the Boch from Villeroy & Boch. Even today you can
 					find
 					the company on the other side of the river. The Boch family lived in the castle until the middle of
@@ -95,6 +114,8 @@
 					war, when they repurposed it into to a hospital for the wounded, saving it from being destroyed
 					during the war. Today, the company Villeroy & Boch owns the castle
 					and uses it as a hotel and venue for festivities.
+				</p>
+				<p class="lang de">DE Stuff
 				</p>
 				<div class="image-gallery">
 					<img src="images/picture1.jpg" alt="Picture 1" />
@@ -112,7 +133,8 @@
 			<!-- Accomodation -->
 			<section id="accomodation" class="main special">
 				<header class="major">
-					<h2>Accomodation</h2>
+					<h2 class="lang en">Accomodation</h2>
+					<h2 class="lang de">Übernachtung</h2>
 					<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue
 						posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 				</header>
@@ -142,8 +164,9 @@
 			<!-- Getting There -->
 			<section id="getting_there" class="main special">
 				<header class="major">
-					<h2>Getting There</h2>
-					<p>For most of you it is probably easiest to fly in to Luxembourg airport and then take a taxi or
+					<h2 class="lang en">Getting There</h2>
+					<h2 class="lang de">Anreise</h2>
+					<p class="lang en">For most of you it is probably easiest to fly in to Luxembourg airport and then take a taxi or
 						train to the castle or hotel, depending on where you will be staying. Please feel free to reach
 						out in case you have any questions. <br>
 						We intend to plan a get together <strong> the day before the wedding</strong>, so we can already
@@ -152,6 +175,8 @@
 						on the day of the wedding as hopefully not too many faces will be new for you. Depending on
 						when you arrive and what you feel like, please let us know if you are interested in joining us
 						for a fun day before the wedding.
+					</p>
+					<p class="lang de">DE Stuff
 					</p>
 					<div class="map-container">
 						<iframe frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade"
@@ -173,18 +198,22 @@
 			<!-- Gifts -->
 			<section id="gifts" class="main special">
 				<header class="major">
-					<h2>Gifts</h2>
-					<p>You really do not need to bring us gifts. We know that most of you have a long journey to be a
+					<h2 class="lang en">Gifts</h2>
+					<h2 class="lang de">Geschenke</h2>
+					<p class="lang en">You really do not need to bring us gifts. We know that most of you have a long journey to be a
 						part of pir wedding, so our biggest gift is being able to celebrate together with you!
 						In case you still want to bring something, please use our gift registy here, and find something on the 
 						list, or help us with our honeymoon budget.</p>
+					<p class="lang de">
+						DE Stuff </p>
 
-					<p>Any activity or game you might want to plan <strong>must be aligned with our wedding planner
+					<p class="lang en">Any activity or game you might want to plan <strong>must be aligned with our wedding planner
 							Jenny in
 							advance. </strong> We kindly urge you to refrain from preparing some of the more trdaitional activities like 
 							“hammering money out of a concrete block” or "stealing the bride" - we all want to have fun
 						and a good time with things we feel comfortable with. Thank you for understanding.
 						</p>
+					<p class="lang de">DE Stuff </p>
 					<div class="desktop-content">
 						<!-- QR Code for desktop devices -->
 						<img src="images/Revolut.jpg" alt="QR Code">

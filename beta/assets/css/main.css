@@ -3267,7 +3267,7 @@ input, select, textarea {
 			list-style: none;
 		}
 
-			#nav ul li {
+			#nav ul li{
 				-moz-transition: margin 0.2s ease;
 				-webkit-transition: margin 0.2s ease;
 				-ms-transition: margin 0.2s ease;
@@ -3277,6 +3277,7 @@ input, select, textarea {
 				padding: 0;
 				vertical-align: middle;
 			}
+				
 
 				#nav ul li a {
 					-moz-transition: font-size 0.2s ease;
@@ -3910,4 +3911,39 @@ input, select, textarea {
     position: absolute;
     right:  0px;
 	top: auto;
+}
+
+.language-selector {
+    position: absolute;
+	right: 0px;
+	display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.language-selector button {
+	display: flex;
+    align-items: center;
+	text-align: center;
+	align-content: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border: none;
+    background: transparent;
+    color: #007bff; /* Adjust color as needed */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+.language-selector button:hover {
+    background-color: #a05252;
+}
+
+/* Hide German text by default */
+.lang.de {
+    display: none;
 }
