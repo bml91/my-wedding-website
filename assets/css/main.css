@@ -191,9 +191,9 @@ html {
 
 body {
 	background-color: #faebd0;
-	background: -moz-linear-gradient(45deg, #faebd0 15%, #e69809 85%);
-	background: -webkit-linear-gradient(45deg, #faebd0 15%, #e69809 85%);
-	background: -ms-linear-gradient(45deg, #d1a552 15%, #f1d9ab 85%);
+	background: -moz-linear-gradient(45deg, #fde6bf 15%, #fef4e3 85%);
+	background: -webkit-linear-gradient(45deg, #fde6bf 15%, #fef4e3 85%);
+	background: -ms-linear-gradient(45deg, #fde6bf 15%, #fef4e3 85%);
 	background: linear-gradient(45deg, #fde6bf 15%, #fef4e3 85%);
 }
 
@@ -2851,6 +2851,7 @@ header.major h2:after {
 table {
 	margin: 0 0 2em 0;
 	width: 100%;
+	text-align: left;
 }
 
 table tbody tr {
@@ -4068,7 +4069,8 @@ body.is-preload #header.alt .logo {
 
 @media only screen and (max-width: 768px) {
 	.mobile-content {
-		display: flex;
+		display: inline-block;
+		
 	}
 
 	.desktop-content {
