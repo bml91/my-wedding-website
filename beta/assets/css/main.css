@@ -2650,6 +2650,12 @@ ul.actions.special {
 	justify-content: center;
 	width: 100%;
 	margin-left: 0;
+	align-self: right;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	list-style: none;
+	padding: 0;
 }
 
 ul.actions.special li:first-child {
