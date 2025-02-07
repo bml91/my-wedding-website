@@ -12,7 +12,13 @@
 	<meta charset="utf-8" />
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<script>
+        // Create a new <link> element dynamically
+        let cssLink = document.createElement("link");
+        cssLink.rel = "stylesheet";
+        cssLink.href = "assets/css/main.css?v=" + new Date().getTime(); // Append a timestamp
+        document.head.appendChild(cssLink);
+    </script>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
