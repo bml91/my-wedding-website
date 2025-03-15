@@ -2568,6 +2568,7 @@ ul {
 
 ul li {
 	padding-left: 0.5em;
+	font-size: 1.25em;
 }
 
 ul.alt {
@@ -2797,6 +2798,8 @@ header.major p {
 	font-size: 1.25em;
 	letter-spacing: -0.025em;
 }
+
+
 
 header.major.special {
 	text-align: center;
@@ -3431,6 +3434,7 @@ body.is-preload #header.alt .logo {
 	margin: 0 0.35em;
 	padding: 0;
 	vertical-align: middle;
+	
 }
 
 
